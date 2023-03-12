@@ -1,0 +1,74 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.login {
+  height: 100vh;
+}
+
+.login-left {
+  background-color: blue;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 48px;
+  color: #fff;
+}
+
+.header p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.login-form h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: blue;
+}
+
+.header .sign-in {
+  background-color: blue;
+  color: #fff;
+  margin-top: 50px;
+  font-size: 20px;
+  border-radius: 50px;
+  border-color: #fff;
+}
+
+.facebook {
+  margin-right: 40px;
+}
+
+.instagram {
+  margin-right: 40px;
+}
+
+.form-control {
+  margin-top: 20px;
+}
+
+.form .sign-up {
+  width: 100px;
+  height: 42px;
+  margin-top: 20px;
+  background: blue;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+}
