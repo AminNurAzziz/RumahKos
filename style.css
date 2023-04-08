@@ -2,26 +2,22 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.login {
-  height: 100vh;
-}
-
-.login-left {
-  background-color: blue;
-}
-
-.img-bg {
-  width: 788px;
-  position: absolute;
-  margin-top: -416px;
-  margin-left: -440px;
-}
-
-.header {
+.main {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   text-align: center;
 }
 
-.header h1 {
+.left {
+  background-color: rgb(0, 85, 255);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -29,7 +25,7 @@
   color: #fff;
 }
 
-.header p {
+.text p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -37,25 +33,35 @@
   color: #fff;
 }
 
-.login-form {
-  text-align: center;
+.text .sign-in {
+  background-color: rgb(0, 85, 255);
+  color: #fff;
+  margin-top: 30px;
+  font-size: 20px;
+  border-radius: 50px;
+  border-color: #fff;
 }
 
-.login-form h1 {
+.left {
+  background-image: url('foto/istockphoto-538041843-612x612-removebg-preview.png');
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.right {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.right h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 48px;
-  color: blue;
-}
-
-.header .sign-in {
-  background-color: blue;
-  color: #fff;
-  margin-top: 50px;
-  font-size: 20px;
-  border-radius: 50px;
-  border-color: #fff;
+  color: rgb(0, 85, 255);
 }
 
 .facebook {
@@ -68,14 +74,20 @@
 
 .form-control {
   margin-top: 20px;
+  font-weight: 500;
 }
 
 .form .sign-up {
   width: 100px;
   height: 42px;
   margin-top: 20px;
-  background: blue;
+  background: rgb(0, 85, 255);
   border-radius: 50px;
   color: #fff;
   border: none;
+}
+
+/* LOGIN PENCARI KOS */
+.akun {
+  width: -500px;
 }
